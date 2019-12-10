@@ -17,12 +17,6 @@ context('Actions', () => {
   it('Navigate Through page verify that endeavor streaming appears in the URL ', () => {
 
 
-    //cy.get('[href="https://www.endeavorstreaming.com/"] > .LC20lb > .S3Uucc')
-      //  .click()
-
-
-
-
     it('Navigate Through page verify that endeavor streaming appears in the URL ', () => {
 
       cy.visit('https://www.endeavorstreaming.com/')
