@@ -15,7 +15,7 @@ context('Actions', () => {
 
   })
 
-  it('Verify that Innovate page can be navigated toURL contains endeavor streaming ', () => {
+  it('Verify that Innovate page can be navigated to URL contains endeavor streaming ', () => {
 
     cy.visit('https://www.endeavorstreaming.com/')
 
