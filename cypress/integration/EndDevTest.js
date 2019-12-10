@@ -2,10 +2,11 @@
 
 context('Actions', () => {
   beforeEach(() => {
-    cy.visit('https://www.google.com')
+
   })
 
-  it('Verify that endeavor streaming can be searched for in google', () => {
+  it(' From Google.com search for and click on Endeavor Streaming', () => {
+    cy.visit('https://www.google.com')
     cy.get('.gLFyf').type('endeavor streaming')
         .should('have.value', 'endeavor streaming')
 
@@ -14,14 +15,12 @@ context('Actions', () => {
 
   })
 
-  it('Navigate Through page verify that endeavor streaming appears in the URL ', () => {
+  it('Verify that Innovate page can be navigated toURL contains endeavor streaming ', () => {
 
+    cy.visit('https://www.endeavorstreaming.com/')
 
     it('Navigate Through page verify that endeavor streaming appears in the URL ', () => {
 
-      cy.visit('https://www.endeavorstreaming.com/')
-      cy.get('.Header-nav-inner > [href="/about"]')
-        .click()
 
     cy.contains('INNOVATE')
 
